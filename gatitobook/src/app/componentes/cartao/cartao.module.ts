@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { CartaoComponent } from './cartao.component';
 
 
-
 @NgModule({
   declarations: [CartaoComponent],
   imports: [
