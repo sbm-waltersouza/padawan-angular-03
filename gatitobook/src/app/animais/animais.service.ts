@@ -21,7 +21,7 @@ export class AnimaisService {
     return this.http.get<Animais>(`${API}/${nomeDoUsuario}/photos`,)
   }
 
-  buscarPorID(id:number) : Observable<Animal> {
+  buscaPorID(id:number) : Observable<Animal> {
     return this.http.get<Animal>(`${API}/photos/${id}`);
   }
 
