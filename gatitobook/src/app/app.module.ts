@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CabecalhoModule } from './componentes/cabecalho/cabecalho.module';
 import { RodapeModule } from './componentes/rodape/rodape.module';
+import { ComentariosComponent } from './detalhe-animal/comentarios/comentarios.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ComentariosComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
